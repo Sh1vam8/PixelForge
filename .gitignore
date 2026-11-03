@@ -1,0 +1,43 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Personal input media
+dataset/images/*
+dataset/videos/*
+!dataset/images/README.md
+!dataset/videos/README.md
+
+# Personal-photo-derived output files
+outputs/unit_3_image_restoration/*
+!outputs/unit_3_image_restoration/README.md
+
+outputs/unit_3_segmentation/*
+!outputs/unit_3_segmentation/README.md
+
+outputs/unit_4_feature_extraction/*
+!outputs/unit_4_feature_extraction/README.md
+
+# Exclude portrait detection output
+outputs/unit_5_object_detection/portrait_yolo.png
+outputs/unit_5_object_detection/portrait_detections.csv
+
+# Credentials
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
